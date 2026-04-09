@@ -16,9 +16,9 @@ Menjadi mahir dalam Python untuk Cyber Security
 - **Project**: [Warung Cijen v1](warung.py) - Aplikasi kasir sederhana dengan sistem diskon.
 - **Status**: Berhasil! Memahami pentingnya **indentasi** di Python.
 
-### Hari 2: (Coming Soon)
-- **Rencana**: Belajar tentang `List`, `For Loop`, dan fungsi `sum()`.
-- **Target Project**: Upgrade Warung Cijen dengan Laporan Penjualan Harian.
+### Hari 2: Fungsi & File Handling
+- **Materi**: Membuat Fungsi (`def`), Validasi input dengan `while not in`, dan menyimpan data ke file `.txt` (`with open`).
+- **Status**: Berhasil mengupgrade Toko Cijen menjadi serba otomatis! Mesin laporan jalan lancar.
 
 ---
 
