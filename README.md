@@ -1,31 +1,19 @@
-# Belajar-Python-Harian
-# 🐍 My Python Learning Journey
+# 🛒 Warung Cijen - Aplikasi Kasir Modular
 
-Repository ini adalah catatan harian saya belajar pemrograman Python dari awal. Di sini saya menyimpan kode latihan, project kecil, dan catatan tentang kendala yang saya hadapi.
+> Proyek pembelajaran Python (Hari 1-3) yang berfokus pada logika pemrograman, *file handling*, arsitektur perangkat lunak, dan pengenalan keamanan siber dasar.
 
-## 🚀 Goal
-Menjadi mahir dalam Python untuk Cyber Security
+## 📌 Fitur Utama
+Aplikasi ini bukan sekadar program kasir biasa, melainkan sudah dilengkapi dengan standar industri:
+- **Tahan Banting (Error Handling):** Menggunakan `try...except` agar aplikasi tidak *crash* saat pengguna memasukkan tipe data yang salah.
+- **Arsitektur Modular:** Kode tidak menumpuk di satu tempat. Dipisah menjadi file katalog, mesin fungsi, dan program utama.
+- **Database JSON:** Data transaksi (nama pembeli dan total belanja) diekspor secara rapi ke format standar `.json`.
+- **Keamanan Kriptografi (Blue Team):** Dilengkapi dengan Dashboard Admin rahasia yang dilindungi oleh sistem *login* berbasis **SHA-256 Hashing**.
+- **Simulasi Serangan (Red Team):** Terdapat skrip `brute_force.py` untuk menguji kerentanan *password* menggunakan *Dictionary Attack*.
 
----
-
-## 📅 Log Harian
-
-### Hari 1: Dasar & Logika Kasir
-- **Materi**: `input()`, `print()`, Variabel, Tipe Data (`int`, `str`).
-- **Logika**: Percabangan (`if-else`) dan Perulangan (`while loop`).
-- **Project**: [Warung Cijen v1](warung.py) - Aplikasi kasir sederhana dengan sistem diskon.
-- **Status**: Berhasil! Memahami pentingnya **indentasi** di Python.
-
-### Hari 2: Fungsi & File Handling
-- **Materi**: Membuat Fungsi (`def`), Validasi input dengan `while not in`, dan menyimpan data ke file `.txt` (`with open`).
-- **Status**: Berhasil mengupgrade Toko Cijen menjadi serba otomatis! Mesin laporan jalan lancar.
-
----
-
-## 🛠️ Tools
-- **Language**: Python 3.14
-- **Editor**: Visual Studio Code
-- **Manager**: Python Installation Manager
-
----
-*Created with ❤️ by CIJENWASGONE*
+## 📂 Struktur Direktori
+- `warung.py` : Program utama (Front-End) untuk melayani pembeli.
+- `katalog_toko.py` : Ruang penyimpanan data (katalog harga barang).
+- `mesin_toko.py` : Mesin pemroses (cetak struk rapi dengan f-string & ekspor JSON).
+- `admin_warung.py` : Portal *Back-End* untuk membaca database `.json` (Butuh *password*).
+- `brute_force.py` : Skrip otomatis penyerang untuk mensimulasikan *hacking password*.
+- `.gitignore` : Penjaga rahasia agar file database asli tidak bocor ke publik.
